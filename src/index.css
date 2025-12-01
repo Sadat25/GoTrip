@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@utility container {
+    margin-inline: auto;
+    padding-inline: 2rem;
+}
+
+@theme {
+    --font-jost: "Jost", sans-serif;
+    --color-primary: #051036;
+    --color-secondary: #697488;
+}
+
+@theme {
+    --breakpoint-*: initial;
+    --breakpoint-md: 40rem;
+    --breakpoint-lg: 64rem;
+    --breakpoint-xl: 80rem;
+}
+
+/* remove default arrows of slick slider */
+.slick-prev:before,
+.slick-next:before {
+    content: "" !important;
+}
