@@ -94,7 +94,7 @@ const Hero = () => {
                 </Slider>
             </div>
             <div className="w-full flex items-center mt-[-115px] absolute">
-                <div className="w-[60%] flex justify-between py-6.5 rounded-sm bg-white shadow-lg ">
+                <div className="w-[60%] flex justify-between py-6.5 rounded-tr-sm bg-white shadow-lg ">
                     <div></div>
                     <div className="flex items-center ">
                         <div className="mr-[95px] ">

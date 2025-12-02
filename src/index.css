@@ -33,3 +33,11 @@
 .slick-next:before {
     content: "" !important;
 }
+
+.slick-dots .slick-active div {
+    background-color: #3554D1;
+}
+
+.slick-slider {
+    position: relative;
+}

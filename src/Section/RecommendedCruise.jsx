@@ -23,7 +23,7 @@ function SampleNextArrow(props) {
                 justifyContent: "center",
                 width: "70px",
                 right: "-10px",
-                top : "130px",
+                top: "130px",
                 zIndex: 1,
             }}
             onClick={onClick}
@@ -48,7 +48,7 @@ function SamplePrevArrow(props) {
                 justifyContent: "center",
                 width: "70px",
                 left: "-35px",
-                top : "130px",
+                top: "130px",
                 zIndex: 1,
             }}
             onClick={onClick}
@@ -60,7 +60,7 @@ function SamplePrevArrow(props) {
     );
 }
 
-const Featured = () => {
+const RecommendedCruise = () => {
 
     const settings = {
         dots: false,
@@ -108,7 +108,7 @@ const Featured = () => {
 
     return (
         <div className="container mb-30">
-            <SecHeading title="Featured Cruise Deals" discription="Interdum et malesuada fames ac ante ipsum" />
+            <SecHeading title="Recommended Cruise" discription="Interdum et malesuada fames ac ante ipsum" />
 
             <div className="slider-container">
                 <Slider {...settings}>
@@ -122,9 +122,9 @@ const Featured = () => {
                     ))}
                 </Slider>
             </div>
-        
+
         </div>
     )
 }
 
-export default Featured
+export default RecommendedCruise

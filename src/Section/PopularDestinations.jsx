@@ -1,11 +1,11 @@
 import React from 'react'
 import PopularLocation from '../Components/PopularLocation'
+import SecHeading from '../Components/SecHeading'
 
 const Popular = () => {
   return (
-    <div className='container font-jost pt-30' id='popular'>
-      <h2 className='text-3xl font-semibold capitalize text-primary text-center '>Popular Destinations</h2>
-      <p className='text-center leading-7.5 text-secondary mb-10 '>Interdum et malesuada fames ac ante ipsum</p>
+    <div className='container' id='popular'>
+      <SecHeading title="Popular Destinations" discription="Interdum et malesuada fames ac ante ipsum" />
       <div className='flex justify-between '>
         <PopularLocation title="New York" />
         <PopularLocation title="London" />
