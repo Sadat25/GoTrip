@@ -84,7 +84,7 @@ const Hero = () => {
                                 className=" h-screen w-full bg-cover bg-center bg-no-repeat text-white flex flex-col justify-center items-center"
                                 style={{ backgroundImage: `url(${img})` }}
                             >
-                                <p className="leading-[30px] mb-2.5 ">TOUR EXPERIENCE</p>
+                                <p className="leading-[30px] mb-2.5 text-white ">TOUR EXPERIENCE</p>
                                 <h2 className="text-[80px] font-semibold text-center ">Find The Best Cruise
                                     <br />
                                     For You</h2>
@@ -120,7 +120,7 @@ const Hero = () => {
                     <a href='#popular' className=" group flex gap-2.5 items-center text-end cursor-pointer ">
                         <div>
                             <h2 className="leading-[30px] font-semibold ">Scroll Down</h2>
-                            <p>to discover more</p>
+                            <p className="text-white">to discover more</p>
                         </div>
                         <div className="h-10.5 w-7 rounded-full border-2 border-white relative ">
                             <div className="h-2 w-2 rounded-full border-2 border-white absolute top-1.5 left-[9px] group-hover:top-[25px] group-hover:bg-white transition-all ease-in-out duration-400"></div>
