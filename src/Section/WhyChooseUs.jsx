@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
     return (
         <div className='container mt-30 flex items-center '>
             <div className='w-[40%]'>
-                <h2 className='text-primary text-3xl font-semibold capitalize '>Why Choose Us</h2>
+                <h3>Why Choose Us</h3>
                 <h2 className='text-secondary leading-7.5 '>These popular destinations have a lot to offer</h2>
                 <p className='pr-20 py-10 text-primary leading-7.5'>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 <BTN className="flex items-center gap-2 ">

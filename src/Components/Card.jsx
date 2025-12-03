@@ -12,27 +12,27 @@ const Card = ({ img, tag, tagBG }) => {
                 </div>
                 <h2 className={`absolute top-5 left-0 rounded-tr-sm rounded-br-sm  px-3 py-1.5 text-primary text-[12px] ${tagBG}`}>{tag}</h2>
             </div>
-            <p className=' mt-3 mb-1.5 text-sm text-secondary '>Norwegian Getaway</p>
-            <h1 class="relative inline-block">
-                <span class=" z-10 text-primary text-lg leading-7.5 ">7 Night Cruise to the Western</span>
-                <span class="absolute left-0 bottom-1 h-px w-0 bg-primary transition-all duration-500 group-hover:w-full"></span>
+            <h5 className=' mt-3 mb-1.5 text-secondary '>Norwegian Getaway</h5>
+            <h1 className="relative inline-block">
+                <span className=" z-10 text-primary text-lg leading-7.5 ">7 Night Cruise to the Western</span>
+                <span className="absolute left-0 bottom-1 h-px w-0 bg-primary transition-all duration-500 group-hover:w-full"></span>
             </h1>
-            <h1 class="relative inline-block">
-                <span class=" z-10 text-primary text-lg leading-7.5 ">Mediterranean</span>
-                <span class="absolute left-0 bottom-1 h-0.5 w-0 bg-primary transition-all duration-600 group-hover:w-full"></span>
+            <h1 className="relative inline-block">
+                <span className=" z-10 text-primary text-lg leading-7.5 ">Mediterranean</span>
+                <span className="absolute left-0 bottom-1 h-0.5 w-0 bg-primary transition-all duration-600 group-hover:w-full"></span>
             </h1>
             <div className='mt-2 mb-2.5 flex items-center justify-between'>
                 <div>
-                    <p className='text-primary text-sm leading-6 '>18/06/2022</p>
-                    <p className='text-secondary text-sm leading-6 '>Sailing Date</p>
+                    <h5>18/06/2022</h5>
+                    <h5 className='text-secondary'>Sailing Date</h5>
                 </div>
                 <div>
-                    <p className='text-primary text-sm leading-6 '>Departs</p>
-                    <p className='text-secondary text-sm leading-6 '>Southampton</p>
+                    <h5>Departs</h5>
+                    <h5 className='text-secondary '>Southampton</h5>
                 </div>
                 <div>
-                    <p className='text-primary text-sm leading-6 '>Ports (7)</p>
-                    <p className='text-secondary text-sm leading-6 '>Sete, Toulon...</p>
+                    <h5>Ports (7)</h5>
+                    <h5 className='text-secondary'>Sete, Toulon...</h5>
                 </div>
             </div>
             <div className='flex items-center justify-between'>

@@ -7,6 +7,22 @@
     body {
         scroll-behavior: smooth;
     }
+
+    p {
+        @apply text-primary font-jost text-[15px] leading-[26px] tracking-[0.3px];
+    }
+
+    h3 {
+        @apply text-primary font-jost text-[30px] font-semibold capitalize
+    }
+
+    h4 {
+        @apply text-primary font-jost text-[16px] leading-[30px]
+    }
+
+    h5 {
+        @apply text-primary font-jost text-[14px] leading-6
+    }
 }
 
 @utility container {

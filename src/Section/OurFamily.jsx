@@ -84,32 +84,32 @@ const OurFamily = () => {
                     <div className="bg-[url('/bg1.png')] bg-cover bg-center text-white text-center  w-full py-30">
                         <img className='m-auto' src={our} alt="" />
                         <h2 className='text-[22px] font-semibold leading-11 py-10.5 max-w-[796px] m-auto '>"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</h2>
-                        <p>Ali Tufan</p>
-                        <p className='text-sm mt-1.5 pb-20 '>Product Manager, Apple Inc</p>
+                        <p className="text-white">Ali Tufan</p>
+                        <h5 className='mt-1.5 pb-20  text-white'>Product Manager, Apple Inc</h5>
                     </div>
                     <div className="bg-[url('/bg1.png')] bg-cover bg-center text-white text-center  w-full py-30">
                         <img className='m-auto' src={our} alt="" />
                         <h2 className='text-[22px] font-semibold leading-11 py-10.5 max-w-[796px] m-auto '>"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</h2>
-                        <p>Ali Tufan</p>
-                        <p className='text-sm mt-1.5 pb-20 '>Product Manager, Apple Inc</p>
+                        <p className="text-white">Ali Tufan</p>
+                        <h5 className='mt-1.5 pb-20  text-white'>Product Manager, Apple Inc</h5>
                     </div>
                     <div className="bg-[url('/bg1.png')] bg-cover bg-center text-white text-center  w-full py-30">
                         <img className='m-auto' src={our} alt="" />
                         <h2 className='text-[22px] font-semibold leading-11 py-10.5 max-w-[796px] m-auto '>"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</h2>
-                        <p>Ali Tufan</p>
-                        <p className='text-sm mt-1.5 pb-20 '>Product Manager, Apple Inc</p>
+                        <p className="text-white">Ali Tufan</p>
+                        <h5 className='mt-1.5 pb-20  text-white'>Product Manager, Apple Inc</h5>
                     </div>
                     <div className="bg-[url('/bg1.png')] bg-cover bg-center text-white text-center  w-full py-30">
                         <img className='m-auto' src={our} alt="" />
                         <h2 className='text-[22px] font-semibold leading-11 py-10.5 max-w-[796px] m-auto '>"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</h2>
-                        <p>Ali Tufan</p>
-                        <p className='text-sm mt-1.5 pb-20 '>Product Manager, Apple Inc</p>
+                        <p className="text-white">Ali Tufan</p>
+                        <h5 className='mt-1.5 pb-20  text-white'>Product Manager, Apple Inc</h5>
                     </div>
                     <div className="bg-[url('/bg1.png')] bg-cover bg-center text-white text-center  w-full py-30">
                         <img className='m-auto' src={our} alt="" />
                         <h2 className='text-[22px] font-semibold leading-11 py-10.5 max-w-[796px] m-auto '>"Our family was traveling via bullet train between cities in Japan with our luggage - the location for this hotel made that so easy. Agoda price was fantastic. "</h2>
-                        <p>Ali Tufan</p>
-                        <p className='text-sm mt-1.5 pb-20 '>Product Manager, Apple Inc</p>
+                        <p className="text-white">Ali Tufan</p>
+                        <h5 className='mt-1.5 pb-20  text-white'>Product Manager, Apple Inc</h5>
                     </div>
 
                 </Slider>

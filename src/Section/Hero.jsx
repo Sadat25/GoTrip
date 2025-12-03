@@ -93,21 +93,21 @@ const Hero = () => {
                     ))}
                 </Slider>
             </div>
-            <div className="w-full flex items-center mt-[-115px] absolute">
+            <div className="w-full flex items-center mt-[-108px] absolute">
                 <div className="w-[60%] flex justify-between py-6.5 rounded-tr-sm bg-white shadow-lg ">
                     <div></div>
                     <div className="flex items-center ">
                         <div className="mr-[95px] ">
-                            <h5 className="text-primary text-[15px] tracking-[0.3px] ">Where to</h5>
-                            <p className="text-[15px] leading-[26px] tracking-[0.3px] text-secondary ">All Destination</p>
+                            <p className="text-primary ">Where to</p>
+                            <p className="text-secondary ">All Destination</p>
                         </div>
                         <div className="px-[30px] border-x border-[#DADFE6] ">
-                            <h5 className="text-primary text-[15px] tracking-[0.3px] ">All Cruise Line</h5>
-                            <p className="text-[15px] leading-[26px] tracking-[0.3px] text-secondary ">Holland America Line</p>
+                            <p className="text-primary ">All Cruise Line</p>
+                            <p className=" text-secondary ">Holland America Line</p>
                         </div>
                         <div className="px-[30px] ">
-                            <h5 className="text-primary text-[15px] tracking-[0.3px] ">Departure Month</h5>
-                            <p className="text-[15px] leading-[26px] tracking-[0.3px] text-secondary ">April 2022</p>
+                            <p className="text-primary ">Departure Month</p>
+                            <p className="  text-secondary ">April 2022</p>
                         </div>
                         <BTN className="flex items-center gap-2.5 mx-6.5 ">
                             <MdSearch className="text-xl " />
@@ -120,7 +120,7 @@ const Hero = () => {
                     <a href='#popular' className=" group flex gap-2.5 items-center text-end cursor-pointer ">
                         <div>
                             <h2 className="leading-[30px] font-semibold ">Scroll Down</h2>
-                            <p className="text-[15px] leading-[26px] tracking-[0.3px] ">to discover more</p>
+                            <p>to discover more</p>
                         </div>
                         <div className="h-10.5 w-7 rounded-full border-2 border-white relative ">
                             <div className="h-2 w-2 rounded-full border-2 border-white absolute top-1.5 left-[9px] group-hover:top-[25px] group-hover:bg-white transition-all ease-in-out duration-400"></div>
